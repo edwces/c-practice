@@ -6,7 +6,7 @@ typedef struct Node {
     struct Node * next;
 } Node;
 
-void insertNode(int value);
+void insertAtEnd(Node * head, int value);
 void printLinkedL(Node * p);
 
 #endif
